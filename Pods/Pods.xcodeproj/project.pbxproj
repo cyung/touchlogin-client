@@ -1,0 +1,1307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040621D5779F8FC010C28CFCA5DD2197 /* Pods-TouchLoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 044819EB8EB0663352BBF1760C5544BF /* Pods-TouchLoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496A6A46E42A3654D06434F2961FA6F2 /* Error.swift */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04514CF31A7DB4D86BEF7606C7DB9A /* Timeline.swift */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704C4EDEB119F38DBA7C99D2DB8A067 /* Validation.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A7B345F160F13D5D87ED8E47A7F2D /* NetworkReachabilityManager.swift */; };
+		3A1099414589E7878165757183596980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CB1D05DFFD0BFF147C34A589EA206 /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610DCD5EA20F6DB3A83A8A2997A3F8D3 /* Manager.swift */; };
+		482E7F65E2B409E0AF55B7528E63DE9F /* Pods-TouchLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13C55FD8D4024E46FF54CAC57A0ECF9 /* Pods-TouchLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3C770C69F8D455FC7DDCB857E29DF0 /* Pods-TouchLoginUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C75DC55CCFF86DD8E4E6F74D9A197899 /* Pods-TouchLoginUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EF8E9F85E7E3AF517A5D4B15957A5 /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = A865CE07542E17B60DF729EC8F9E10C3 /* Download.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36326F9276770A95122FD4807D1A998B /* Response.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41C4375556AB3BEF6222B410F140DA /* ServerTrustPolicy.swift */; };
+		85DE2066633F2F69AA79B6AA19826F21 /* Pods-TouchLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F019D35BBB6C5429B058B4D1D4961350 /* Pods-TouchLogin-dummy.m */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3399D111F106EA52ABEC5E92C105F7BB /* Alamofire.swift */; };
+		91C36C428505A897B4AED8BC3F27ECAA /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1A8A8653A167726A7789E3A93C17A4 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13898EB0AACA9D968D5788761B7E70F3 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EF2808FFE5C4010363824C36ED865B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BEFBC3D5680B328754229910010BA /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4893FBC68D83603BC8AB3C210BC18AC9 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA90B9570F5843F58B41DB81EF889D8 /* Stream.swift */; };
+		B35C316B5E800BF882D39BA167EBCA31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B8F8C2C013FFF3C3D562569C15287764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BDFAB428DE201AE3899614222BC7AA51 /* Pods-TouchLoginUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC8D49A38470D257D4D0223741C801 /* Pods-TouchLoginUITests-dummy.m */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2729B74070CBB570A719E4237615F53 /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CBFBE22B9B6A058863C98B74B7F1A /* ParameterEncoding.swift */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81630429A03029BD28DF35E8600E180B /* MultipartFormData.swift */; };
+		D3B2D3F9A29A428FCA911A0AD86C35A3 /* Pods-TouchLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36859870C56BA49005DA5C8359B73F34 /* Pods-TouchLoginTests-dummy.m */; };
+		EA6FDB353E0AE2963BFCD155E100F836 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D06AF1EDAC07315F42C4632B83E7B /* Pods-dummy.m */; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C407AEF7B035D4676A60F4AC6A62D3 /* Request.swift */; };
+		F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E409A1E511C0C1A22A3E37E09DFF43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		66FB30F40015337B10768205C744F9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		8647A3B12124E4202DE52FD9A7FE875A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		95228913FE20FBC3FE8F2C77E634AAD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C407AEF7B035D4676A60F4AC6A62D3 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		0285AABC1800CB56AD57D9A25EA8A7E4 /* Pods-TouchLoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TouchLoginTests.modulemap"; sourceTree = "<group>"; };
+		029DF4890570BF20D98AAE7DDDC2928E /* Pods-TouchLoginUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLoginUITests-frameworks.sh"; sourceTree = "<group>"; };
+		044819EB8EB0663352BBF1760C5544BF /* Pods-TouchLoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLoginTests-umbrella.h"; sourceTree = "<group>"; };
+		055D66F8A75CBBFF9D4C6E5091BEA1CB /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		07AD868C3C932839CB79B39689E0072B /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments.a"; path = "Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; };
+		0906449BD8590B25F5D7F918E874D9FF /* Pods-TouchLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09359C0FEE232B89AC91556542B2A193 /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		0C0334A4F68F4D41636E45901A7702C2 /* Pods-TouchLoginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLoginTests-frameworks.sh"; sourceTree = "<group>"; };
+		0C794023FB13ABD618692E4151CD5033 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML.a; path = Libraries/libGTM_NSStringHTML.a; sourceTree = "<group>"; };
+		0CB25E728D790DAD3BE7F8E87F9CCFAC /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = Libraries/libGTM_GTMURLBuilder.a; sourceTree = "<group>"; };
+		0DA3A26BF61D4F44464D374C57EAB8BC /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringXML.a; path = Libraries/libGTM_NSStringXML.a; sourceTree = "<group>"; };
+		13898EB0AACA9D968D5788761B7E70F3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		13CA4CC235A97BD536EB064AA3DFB473 /* Pods-TouchLoginUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchLoginUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15D2253F9AFBC15F41AC6B3E5B957704 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B1A01B238115FB17EEAEDD753E9EE4 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = Headers/Public/GGLInstanceIDDelegate.h; sourceTree = "<group>"; };
+		18392E74F82B9C65136F7C64762E2371 /* GGLInstanceIDHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDHeaders.h; path = Headers/Public/GGLInstanceIDHeaders.h; sourceTree = "<group>"; };
+		18DDEFBFCFF82884AB90205E67BF7E13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3AEDF40D24F129DF2DC204CA51263A /* Pods-TouchLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		268BD946190B16B925BB576F92C47E05 /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		272DAA6230C883EB93F8CD2C793AE2C3 /* Pods-TouchLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLogin.release.xcconfig"; sourceTree = "<group>"; };
+		27455B85370E751205D0D35A7DE2D9D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4EDBA9832152E313019970F45C6F16 /* Pods_TouchLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D17344B2706D2E1535AB47275F62BE7 /* Pods-TouchLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F961D8F2D6F0860B3AB46A3F13337CA /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full.a; path = Libraries/libGTMSessionFetcher_full.a; sourceTree = "<group>"; };
+		32985EABA998F2E43318EE921398D82E /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		3399D111F106EA52ABEC5E92C105F7BB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		36326F9276770A95122FD4807D1A998B /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		36859870C56BA49005DA5C8359B73F34 /* Pods-TouchLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLoginTests-dummy.m"; sourceTree = "<group>"; };
+		37F89A2C4834DCD495D585C6048C3220 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386B7F419D85EBEA1853C25671C6A0F0 /* libGTM_KVO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_KVO.a; path = Libraries/libGTM_KVO.a; sourceTree = "<group>"; };
+		3A2D06AF1EDAC07315F42C4632B83E7B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		3C1EF8E9F85E7E3AF517A5D4B15957A5 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		3C48F1BC96DD26056532744ABDA006AD /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDConfig.h; path = Headers/Public/GGLInstanceIDConfig.h; sourceTree = "<group>"; };
+		3CC8B183198A7DCF8F74F45C4AFB815A /* libGTM_RoundedRectPath.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath.a; path = Libraries/libGTM_RoundedRectPath.a; sourceTree = "<group>"; };
+		3D55AA16128E19C197CFB9EA132D4A62 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4582ABD5195E220972D8B6E26FB39CBC /* libGTMSessionFetcher_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core.a; path = Libraries/libGTMSessionFetcher_core.a; sourceTree = "<group>"; };
+		4618FF5F2226E7F1FBACA293E26DC0F1 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		479276E070745B0FABB536DB5AE58647 /* libGIP_Reachability.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGIP_Reachability.a; path = Libraries/libGIP_Reachability.a; sourceTree = "<group>"; };
+		4893FBC68D83603BC8AB3C210BC18AC9 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		496A6A46E42A3654D06434F2961FA6F2 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		4B06BBBEBAC3B87189665B3676D1F2D3 /* libGSDK_Overload.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGSDK_Overload.a; path = Libraries/libGSDK_Overload.a; sourceTree = "<group>"; };
+		4C21937D0C1A497EF6FDB62B3CFF3794 /* libGTM_StringEncoding.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_StringEncoding.a; path = Libraries/libGTM_StringEncoding.a; sourceTree = "<group>"; };
+		4D34B237AAB08B2FEB04166B724F2B31 /* GCMService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMService.h; path = Headers/Public/GCMService.h; sourceTree = "<group>"; };
+		4EB52369B5F7DE38A82F2E5F4919F90A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		506AC81D2F0EAFEF34F1E9C188DDCCCF /* Pods-TouchLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52B560E5364A4C4783D5981A5FC89343 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		5637BA678FA082230940E7199B86887B /* libGTM_AddressBook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_AddressBook.a; path = Libraries/libGTM_AddressBook.a; sourceTree = "<group>"; };
+		5760D52163FC84702A323F0E22A9CB3A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		5E41C4375556AB3BEF6222B410F140DA /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5EE9C46D146917105FE807A449F9870F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		610DCD5EA20F6DB3A83A8A2997A3F8D3 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		626396151EDFC802525CD950DFEB8D6A /* Pods-TouchLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLogin-frameworks.sh"; sourceTree = "<group>"; };
+		693B1723CACE2DFE20BBE8B9ACF0B94B /* libGTM_UIFont+LineHeight.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight.a"; path = "Libraries/libGTM_UIFont+LineHeight.a"; sourceTree = "<group>"; };
+		6A1A8A8653A167726A7789E3A93C17A4 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		6B34C6AADF0BA0F468E7131975F3FA2F /* GMRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRConfiguration.h; path = Headers/GGLCore/Public/GMRConfiguration.h; sourceTree = "<group>"; };
+		6F5CB1D05DFFD0BFF147C34A589EA206 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		73622EA413FB4438CF767BCBFA56B0E5 /* Pods_TouchLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74161F68DF9A4723DB98265A924A17E1 /* Pods-TouchLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74459AB6FEECD2686ED7F9328E0E0818 /* Pods-TouchLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		7532D7D37404420885AFDA7AF77E00B9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A09889F38938BB3B40EB6B4BB62BED /* libGTM_SystemVersion.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_SystemVersion.a; path = Libraries/libGTM_SystemVersion.a; sourceTree = "<group>"; };
+		7668DB01237F79CB6C7B5606D4DEB6F0 /* GCMPubSub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMPubSub.h; path = Headers/Public/GCMPubSub.h; sourceTree = "<group>"; };
+		76FAF3D435368644980D6E9993A393F9 /* Pods-TouchLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TouchLogin.modulemap"; sourceTree = "<group>"; };
+		79A4A0D686DBF4E4A7BC09F4F7D45ADC /* Pods-TouchLogin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLogin-resources.sh"; sourceTree = "<group>"; };
+		81630429A03029BD28DF35E8600E180B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		839016D11C7004F00063A5D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		844736659C09CED03FF9E589F98A825A /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleCloudMessaging.h; path = Headers/Public/GoogleCloudMessaging.h; sourceTree = "<group>"; };
+		84BC8D49A38470D257D4D0223741C801 /* Pods-TouchLoginUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLoginUITests-dummy.m"; sourceTree = "<group>"; };
+		8704C4EDEB119F38DBA7C99D2DB8A067 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		87991974C38798367D550B10D2188519 /* libGcmLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGcmLib.a; path = Libraries/libGcmLib.a; sourceTree = "<group>"; };
+		8901D8D7702018F7D39DA29DA475CA97 /* Pods-TouchLoginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLoginTests-resources.sh"; sourceTree = "<group>"; };
+		8BCCB228E9CCFDAB797B5735AD9FE9B4 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F1CBFBE22B9B6A058863C98B74B7F1A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		8FB53F4C53A4A3E7AA01F3C15FC0579D /* GGLInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceID.h; path = Headers/Public/GGLInstanceID.h; sourceTree = "<group>"; };
+		92AAA3087DA85B96176FE85996ABC64A /* Pods-TouchLoginUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchLoginUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95DB20B14D8C7AD7C9899DE4CB523B84 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		96C7A72D7F81D0EAED291F4F44D7D6DD /* libGTM_iPhone.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_iPhone.a; path = Libraries/libGTM_iPhone.a; sourceTree = "<group>"; };
+		96D8E5115AF4474CC3DBED058DC4A52B /* libGTM_NSData+zlib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSData+zlib.a"; path = "Libraries/libGTM_NSData+zlib.a"; sourceTree = "<group>"; };
+		A42A7B345F160F13D5D87ED8E47A7F2D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A53814136C8658FC9D47D65D5B500EEB /* libGTMStackTrace.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace.a; path = Libraries/libGTMStackTrace.a; sourceTree = "<group>"; };
+		A59EA515BF84E9991BC3F3A8EA0818BF /* libGIP_Locale.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGIP_Locale.a; path = Libraries/libGIP_Locale.a; sourceTree = "<group>"; };
+		A769EE1525DD1D3DCA434B0B0B648F26 /* libGTM_Regex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = Libraries/libGTM_Regex.a; sourceTree = "<group>"; };
+		A865CE07542E17B60DF729EC8F9E10C3 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		A9AEA8CA74C43E5D6BA4E30E7F872535 /* CloudMessaging-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CloudMessaging-Module.h"; path = "Headers/ModuleHeaders/CloudMessaging-Module.h"; sourceTree = "<group>"; };
+		A9C6FEB00840BB20917E01FF9FCB1A10 /* libGTM_DebugUtils.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_DebugUtils.a; path = Libraries/libGTM_DebugUtils.a; sourceTree = "<group>"; };
+		AFC6E43DB55D129BF53F43E6CC3EAE26 /* Pods-TouchLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B14A47D9ADFC8A541DD6E5D94EAF1CB6 /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		B3C8CEBB9394B9B0E33814A160A5FC55 /* Pods_TouchLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B89D3E67430B1FC92637218F860A03 /* Pods-TouchLoginUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TouchLoginUITests.modulemap"; sourceTree = "<group>"; };
+		B9752E8816B7DD671AC65EB0F7DCC1DB /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB9173B248AB478048C36FA586A6ADB /* Pods-TouchLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBB8D7584601BFAA59B075299FA6A573 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		BFEE96AD9DA34800FA0A072A69EC8727 /* AppInvite-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AppInvite-Module.h"; path = "Headers/ModuleHeaders/AppInvite-Module.h"; sourceTree = "<group>"; };
+		C2729B74070CBB570A719E4237615F53 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		C54F204B669F162200BF60424138502A /* Pods-TouchLoginUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLoginUITests-resources.sh"; sourceTree = "<group>"; };
+		C7552F0E136D009C8280672AF05DA979 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C75DC55CCFF86DD8E4E6F74D9A197899 /* Pods-TouchLoginUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLoginUITests-umbrella.h"; sourceTree = "<group>"; };
+		C779DCB736432A110FD2FC1088FE129A /* libGTM_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_core.a; path = Libraries/libGTM_core.a; sourceTree = "<group>"; };
+		C873C9311A624025C6E2D0F15FA07710 /* CloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudMessaging.h; path = Headers/GGLCloudMessaging/Public/CloudMessaging.h; sourceTree = "<group>"; };
+		CCFB2156DC557DFD55B555C12A458749 /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		CEF41B63A1B2EE2A9DB12330B0314062 /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON.a; path = Libraries/libGTM_NSScannerJSON.a; sourceTree = "<group>"; };
+		D00D27DE36A181E337EF913339E8C273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13C55FD8D4024E46FF54CAC57A0ECF9 /* Pods-TouchLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLogin-umbrella.h"; sourceTree = "<group>"; };
+		DA085220A15EA95349895DA3B1259360 /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		E07EEB668B556A957E77780AAFDEC64E /* GCMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMConfig.h; path = Headers/Public/GCMConfig.h; sourceTree = "<group>"; };
+		E109050B1D7FDECF91EBF26448126C88 /* libGGLCloudMessaging.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCloudMessaging.a; path = Libraries/libGGLCloudMessaging.a; sourceTree = "<group>"; };
+		E1D45DEAA0D7ABE1908750EA3935D193 /* GGLContext+CloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+CloudMessaging.h"; path = "Headers/GGLCloudMessaging/Public/GGLContext+CloudMessaging.h"; sourceTree = "<group>"; };
+		E6C9466417F4B55EDC8A8CD7932978BF /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLInstanceIDLib.a; path = Libraries/libGGLInstanceIDLib.a; sourceTree = "<group>"; };
+		E7E49FA0F63196900D770B0E1BE596AC /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED04514CF31A7DB4D86BEF7606C7DB9A /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F019D35BBB6C5429B058B4D1D4961350 /* Pods-TouchLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLogin-dummy.m"; sourceTree = "<group>"; };
+		F22A545FCF8BF04115E9383469F2C2E1 /* GCMReceiverDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMReceiverDelegate.h; path = Headers/Public/GCMReceiverDelegate.h; sourceTree = "<group>"; };
+		F28C4C06AE60913E34410A7EAA918C17 /* Pods-TouchLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		F30BEFBC3D5680B328754229910010BA /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		F3BCFD29C938D5DB285769766A96F361 /* AdMob-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AdMob-Module.h"; path = "Headers/ModuleHeaders/AdMob-Module.h"; sourceTree = "<group>"; };
+		FAB48A5DC438CC4224F5E0E7FC7833CA /* libProtocolBuffers.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = Libraries/libProtocolBuffers.a; sourceTree = "<group>"; };
+		FEA90B9570F5843F58B41DB81EF889D8 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E6FBA2C22641CEA64D3FD1D334DB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35C316B5E800BF882D39BA167EBCA31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FAFFE9504C6F841CF0612DF6C6D28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F8C2C013FFF3C3D562569C15287764 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17528931B4504251C6C0B1F9048699F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF2808FFE5C4010363824C36ED865B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E4996CD7A2AB367B428DC4CFC9515D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1099414589E7878165757183596980 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B2C5760D5B8B47F7EDFD5CFF10F221 /* Pods-TouchLogin */ = {
+			isa = PBXGroup;
+			children = (
+				15D2253F9AFBC15F41AC6B3E5B957704 /* Info.plist */,
+				76FAF3D435368644980D6E9993A393F9 /* Pods-TouchLogin.modulemap */,
+				BAB9173B248AB478048C36FA586A6ADB /* Pods-TouchLogin-acknowledgements.markdown */,
+				1D3AEDF40D24F129DF2DC204CA51263A /* Pods-TouchLogin-acknowledgements.plist */,
+				F019D35BBB6C5429B058B4D1D4961350 /* Pods-TouchLogin-dummy.m */,
+				626396151EDFC802525CD950DFEB8D6A /* Pods-TouchLogin-frameworks.sh */,
+				79A4A0D686DBF4E4A7BC09F4F7D45ADC /* Pods-TouchLogin-resources.sh */,
+				D13C55FD8D4024E46FF54CAC57A0ECF9 /* Pods-TouchLogin-umbrella.h */,
+				74459AB6FEECD2686ED7F9328E0E0818 /* Pods-TouchLogin.debug.xcconfig */,
+				272DAA6230C883EB93F8CD2C793AE2C3 /* Pods-TouchLogin.release.xcconfig */,
+			);
+			name = "Pods-TouchLogin";
+			path = "Target Support Files/Pods-TouchLogin";
+			sourceTree = "<group>";
+		};
+		1748963BBB0EA9CAC08969D23AB3201C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E109050B1D7FDECF91EBF26448126C88 /* libGGLCloudMessaging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8636E5BDF2742FC505678F80B0CADB /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C75584CF3B83131930800EBCA3327BC /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		1F51B9461881285F0FD42B6628236D5C /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				3399D111F106EA52ABEC5E92C105F7BB /* Alamofire.swift */,
+				A865CE07542E17B60DF729EC8F9E10C3 /* Download.swift */,
+				496A6A46E42A3654D06434F2961FA6F2 /* Error.swift */,
+				610DCD5EA20F6DB3A83A8A2997A3F8D3 /* Manager.swift */,
+				81630429A03029BD28DF35E8600E180B /* MultipartFormData.swift */,
+				A42A7B345F160F13D5D87ED8E47A7F2D /* NetworkReachabilityManager.swift */,
+				C2729B74070CBB570A719E4237615F53 /* Notifications.swift */,
+				8F1CBFBE22B9B6A058863C98B74B7F1A /* ParameterEncoding.swift */,
+				01C407AEF7B035D4676A60F4AC6A62D3 /* Request.swift */,
+				36326F9276770A95122FD4807D1A998B /* Response.swift */,
+				6F5CB1D05DFFD0BFF147C34A589EA206 /* ResponseSerialization.swift */,
+				F30BEFBC3D5680B328754229910010BA /* Result.swift */,
+				5E41C4375556AB3BEF6222B410F140DA /* ServerTrustPolicy.swift */,
+				FEA90B9570F5843F58B41DB81EF889D8 /* Stream.swift */,
+				ED04514CF31A7DB4D86BEF7606C7DB9A /* Timeline.swift */,
+				3C1EF8E9F85E7E3AF517A5D4B15957A5 /* Upload.swift */,
+				8704C4EDEB119F38DBA7C99D2DB8A067 /* Validation.swift */,
+				96B61D7FA2C0BCCC140D63EA94978FC3 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		214D241B0908039C26DC74A460BA51E0 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				8E92A1A5DDB172D67C702781A35E32D7 /* CloudMessaging */,
+				E7B08AB82E16E122B74009E78B7FB583 /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		22DDFF28DCFBCC46453C1CB45845554D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54FFCFA054B668BF6647C9BCC6F73D4E /* Pods */,
+				15B2C5760D5B8B47F7EDFD5CFF10F221 /* Pods-TouchLogin */,
+				702DE85D7AE2A4C6CE34FAF9BF172D31 /* Pods-TouchLoginTests */,
+				45FA0A88058585875799BDFAF6351451 /* Pods-TouchLoginUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45FA0A88058585875799BDFAF6351451 /* Pods-TouchLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D00D27DE36A181E337EF913339E8C273 /* Info.plist */,
+				B8B89D3E67430B1FC92637218F860A03 /* Pods-TouchLoginUITests.modulemap */,
+				92AAA3087DA85B96176FE85996ABC64A /* Pods-TouchLoginUITests-acknowledgements.markdown */,
+				13CA4CC235A97BD536EB064AA3DFB473 /* Pods-TouchLoginUITests-acknowledgements.plist */,
+				84BC8D49A38470D257D4D0223741C801 /* Pods-TouchLoginUITests-dummy.m */,
+				029DF4890570BF20D98AAE7DDDC2928E /* Pods-TouchLoginUITests-frameworks.sh */,
+				C54F204B669F162200BF60424138502A /* Pods-TouchLoginUITests-resources.sh */,
+				C75DC55CCFF86DD8E4E6F74D9A197899 /* Pods-TouchLoginUITests-umbrella.h */,
+				506AC81D2F0EAFEF34F1E9C188DDCCCF /* Pods-TouchLoginUITests.debug.xcconfig */,
+				2D17344B2706D2E1535AB47275F62BE7 /* Pods-TouchLoginUITests.release.xcconfig */,
+			);
+			name = "Pods-TouchLoginUITests";
+			path = "Target Support Files/Pods-TouchLoginUITests";
+			sourceTree = "<group>";
+		};
+		46B5E307E388E6FAA590312D5C6B8814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB48A5DC438CC4224F5E0E7FC7833CA /* libProtocolBuffers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A34296B9F6939C4A12C66635BA2DEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5637BA678FA082230940E7199B86887B /* libGTM_AddressBook.a */,
+				C779DCB736432A110FD2FC1088FE129A /* libGTM_core.a */,
+				A9C6FEB00840BB20917E01FF9FCB1A10 /* libGTM_DebugUtils.a */,
+				0CB25E728D790DAD3BE7F8E87F9CCFAC /* libGTM_GTMURLBuilder.a */,
+				96C7A72D7F81D0EAED291F4F44D7D6DD /* libGTM_iPhone.a */,
+				386B7F419D85EBEA1853C25671C6A0F0 /* libGTM_KVO.a */,
+				96D8E5115AF4474CC3DBED058DC4A52B /* libGTM_NSData+zlib.a */,
+				07AD868C3C932839CB79B39689E0072B /* libGTM_NSDictionary+URLArguments.a */,
+				CEF41B63A1B2EE2A9DB12330B0314062 /* libGTM_NSScannerJSON.a */,
+				0C794023FB13ABD618692E4151CD5033 /* libGTM_NSStringHTML.a */,
+				0DA3A26BF61D4F44464D374C57EAB8BC /* libGTM_NSStringXML.a */,
+				A769EE1525DD1D3DCA434B0B0B648F26 /* libGTM_Regex.a */,
+				3CC8B183198A7DCF8F74F45C4AFB815A /* libGTM_RoundedRectPath.a */,
+				4C21937D0C1A497EF6FDB62B3CFF3794 /* libGTM_StringEncoding.a */,
+				75A09889F38938BB3B40EB6B4BB62BED /* libGTM_SystemVersion.a */,
+				693B1723CACE2DFE20BBE8B9ACF0B94B /* libGTM_UIFont+LineHeight.a */,
+				A53814136C8658FC9D47D65D5B500EEB /* libGTMStackTrace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C049837DAD2143C5085E254CCFF03B9 /* GoogleCloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				E07EEB668B556A957E77780AAFDEC64E /* GCMConfig.h */,
+				7668DB01237F79CB6C7B5606D4DEB6F0 /* GCMPubSub.h */,
+				F22A545FCF8BF04115E9383469F2C2E1 /* GCMReceiverDelegate.h */,
+				4D34B237AAB08B2FEB04166B724F2B31 /* GCMService.h */,
+				844736659C09CED03FF9E589F98A825A /* GoogleCloudMessaging.h */,
+				90AC8AF15041AABBE67E1AC24AD6F3C1 /* Frameworks */,
+			);
+			path = GoogleCloudMessaging;
+			sourceTree = "<group>";
+		};
+		4F111903AE6F92411731ADEDAE9E6938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7532D7D37404420885AFDA7AF77E00B9 /* Alamofire.framework */,
+				4EB52369B5F7DE38A82F2E5F4919F90A /* Pods.framework */,
+				2B4EDBA9832152E313019970F45C6F16 /* Pods_TouchLogin.framework */,
+				73622EA413FB4438CF767BCBFA56B0E5 /* Pods_TouchLoginTests.framework */,
+				B3C8CEBB9394B9B0E33814A160A5FC55 /* Pods_TouchLoginUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54FFCFA054B668BF6647C9BCC6F73D4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18DDEFBFCFF82884AB90205E67BF7E13 /* Info.plist */,
+				3D55AA16128E19C197CFB9EA132D4A62 /* Pods.modulemap */,
+				E7E49FA0F63196900D770B0E1BE596AC /* Pods-acknowledgements.markdown */,
+				8BCCB228E9CCFDAB797B5735AD9FE9B4 /* Pods-acknowledgements.plist */,
+				3A2D06AF1EDAC07315F42C4632B83E7B /* Pods-dummy.m */,
+				32985EABA998F2E43318EE921398D82E /* Pods-frameworks.sh */,
+				BBB8D7584601BFAA59B075299FA6A573 /* Pods-resources.sh */,
+				6A1A8A8653A167726A7789E3A93C17A4 /* Pods-umbrella.h */,
+				5EE9C46D146917105FE807A449F9870F /* Pods.debug.xcconfig */,
+				52B560E5364A4C4783D5981A5FC89343 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		5CDA6DB266C097A9641E95EC8E48D4AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4582ABD5195E220972D8B6E26FB39CBC /* libGTMSessionFetcher_core.a */,
+				2F961D8F2D6F0860B3AB46A3F13337CA /* libGTMSessionFetcher_full.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E7C5BAE77F453E26B1436890446BAB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09359C0FEE232B89AC91556542B2A193 /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607E74FC469AFC9B4ACEC2D7FB249DE4 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5CDA6DB266C097A9641E95EC8E48D4AC /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		630D3808C1582A7AAFC5FD47986B16C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9466417F4B55EDC8A8CD7932978BF /* libGGLInstanceIDLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		702DE85D7AE2A4C6CE34FAF9BF172D31 /* Pods-TouchLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				27455B85370E751205D0D35A7DE2D9D1 /* Info.plist */,
+				0285AABC1800CB56AD57D9A25EA8A7E4 /* Pods-TouchLoginTests.modulemap */,
+				0906449BD8590B25F5D7F918E874D9FF /* Pods-TouchLoginTests-acknowledgements.markdown */,
+				74161F68DF9A4723DB98265A924A17E1 /* Pods-TouchLoginTests-acknowledgements.plist */,
+				36859870C56BA49005DA5C8359B73F34 /* Pods-TouchLoginTests-dummy.m */,
+				0C0334A4F68F4D41636E45901A7702C2 /* Pods-TouchLoginTests-frameworks.sh */,
+				8901D8D7702018F7D39DA29DA475CA97 /* Pods-TouchLoginTests-resources.sh */,
+				044819EB8EB0663352BBF1760C5544BF /* Pods-TouchLoginTests-umbrella.h */,
+				AFC6E43DB55D129BF53F43E6CC3EAE26 /* Pods-TouchLoginTests.debug.xcconfig */,
+				F28C4C06AE60913E34410A7EAA918C17 /* Pods-TouchLoginTests.release.xcconfig */,
+			);
+			name = "Pods-TouchLoginTests";
+			path = "Target Support Files/Pods-TouchLoginTests";
+			sourceTree = "<group>";
+		};
+		769E79B93ACD7B89C541AFEA96DBACD8 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC1D208F28B567DD5D97E706C462F9 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		7C75584CF3B83131930800EBCA3327BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59EA515BF84E9991BC3F3A8EA0818BF /* libGIP_Locale.a */,
+				479276E070745B0FABB536DB5AE58647 /* libGIP_Reachability.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				839016D11C7004F00063A5D1 /* GoogleService-Info.plist */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F16628B71B8A4ACA6742A670E0908774 /* Pods */,
+				4F111903AE6F92411731ADEDAE9E6938 /* Products */,
+				22DDFF28DCFBCC46453C1CB45845554D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E92A1A5DDB172D67C702781A35E32D7 /* CloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				C873C9311A624025C6E2D0F15FA07710 /* CloudMessaging.h */,
+				E1D45DEAA0D7ABE1908750EA3935D193 /* GGLContext+CloudMessaging.h */,
+				1748963BBB0EA9CAC08969D23AB3201C /* Frameworks */,
+			);
+			name = CloudMessaging;
+			sourceTree = "<group>";
+		};
+		90AC8AF15041AABBE67E1AC24AD6F3C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87991974C38798367D550B10D2188519 /* libGcmLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B61D7FA2C0BCCC140D63EA94978FC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7552F0E136D009C8280672AF05DA979 /* Alamofire.modulemap */,
+				95DB20B14D8C7AD7C9899DE4CB523B84 /* Alamofire.xcconfig */,
+				4893FBC68D83603BC8AB3C210BC18AC9 /* Alamofire-dummy.m */,
+				5760D52163FC84702A323F0E22A9CB3A /* Alamofire-prefix.pch */,
+				13898EB0AACA9D968D5788761B7E70F3 /* Alamofire-umbrella.h */,
+				37F89A2C4834DCD495D585C6048C3220 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		B84078B6080066929DF0597E5D50E01F /* GGLInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				8FB53F4C53A4A3E7AA01F3C15FC0579D /* GGLInstanceID.h */,
+				3C48F1BC96DD26056532744ABDA006AD /* GGLInstanceIDConfig.h */,
+				17B1A01B238115FB17EEAEDD753E9EE4 /* GGLInstanceIDDelegate.h */,
+				18392E74F82B9C65136F7C64762E2371 /* GGLInstanceIDHeaders.h */,
+				630D3808C1582A7AAFC5FD47986B16C3 /* Frameworks */,
+			);
+			path = GGLInstanceID;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8D8C2CC18C94134BCA83B484C19A07 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				46B5E307E388E6FAA590312D5C6B8814 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF87303C39FC733C68221AD306DA5C8A /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4A34296B9F6939C4A12C66635BA2DEA6 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		D3AC1D208F28B567DD5D97E706C462F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B06BBBEBAC3B87189665B3676D1F2D3 /* libGSDK_Overload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B08AB82E16E122B74009E78B7FB583 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F3BCFD29C938D5DB285769766A96F361 /* AdMob-Module.h */,
+				055D66F8A75CBBFF9D4C6E5091BEA1CB /* Analytics-Module.h */,
+				BFEE96AD9DA34800FA0A072A69EC8727 /* AppInvite-Module.h */,
+				A9AEA8CA74C43E5D6BA4E30E7F872535 /* CloudMessaging-Module.h */,
+				4618FF5F2226E7F1FBACA293E26DC0F1 /* Core.h */,
+				B9752E8816B7DD671AC65EB0F7DCC1DB /* Core-Module.h */,
+				DA085220A15EA95349895DA3B1259360 /* GGLConfiguration.h */,
+				268BD946190B16B925BB576F92C47E05 /* GGLContext.h */,
+				CCFB2156DC557DFD55B555C12A458749 /* GGLErrorCode.h */,
+				6B34C6AADF0BA0F468E7131975F3FA2F /* GMRConfiguration.h */,
+				B14A47D9ADFC8A541DD6E5D94EAF1CB6 /* SignIn-Module.h */,
+				5E7C5BAE77F453E26B1436890446BAB4 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F16628B71B8A4ACA6742A670E0908774 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F51B9461881285F0FD42B6628236D5C /* Alamofire */,
+				B84078B6080066929DF0597E5D50E01F /* GGLInstanceID */,
+				214D241B0908039C26DC74A460BA51E0 /* Google */,
+				4C049837DAD2143C5085E254CCFF03B9 /* GoogleCloudMessaging */,
+				BC8D8C2CC18C94134BCA83B484C19A07 /* GoogleInterchangeUtilities */,
+				1C8636E5BDF2742FC505678F80B0CADB /* GoogleIPhoneUtilities */,
+				607E74FC469AFC9B4ACEC2D7FB249DE4 /* GoogleNetworkingUtilities */,
+				769E79B93ACD7B89C541AFEA96DBACD8 /* GoogleSymbolUtilities */,
+				CF87303C39FC733C68221AD306DA5C8A /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33749A18AF2C0D3E8AB52DE9F5DF6234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C770C69F8D455FC7DDCB857E29DF0 /* Pods-TouchLoginUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57002F501AF404BCF150D3C06BDFCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482E7F65E2B409E0AF55B7528E63DE9F /* Pods-TouchLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7070EDFAA9F6C9284F97D7C4FD5C5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C36C428505A897B4AED8BC3F27ECAA /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7CE3216344FB59898527C5F87163 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040621D5779F8FC010C28CFCA5DD2197 /* Pods-TouchLoginTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57CFC4DF5A94826729A3A532FC59EE52 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96086592099F83F7FCBCEB9423AF9F1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				27B6CD64D85CDE62D58AFB0C5EC2F44D /* Sources */,
+				B17528931B4504251C6C0B1F9048699F /* Frameworks */,
+				AB7070EDFAA9F6C9284F97D7C4FD5C5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FACAD584CBBAA1AE9A9C8FA17C8395 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4EB52369B5F7DE38A82F2E5F4919F90A /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C3A378C439B8ED5A5EF231BD4725799 /* Pods-TouchLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C2B726A5648DAF76430853A070C30D /* Build configuration list for PBXNativeTarget "Pods-TouchLogin" */;
+			buildPhases = (
+				4932FD62C58CCAE31DDC0E2D5FF07DC5 /* Sources */,
+				E1E4996CD7A2AB367B428DC4CFC9515D /* Frameworks */,
+				4D57002F501AF404BCF150D3C06BDFCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CDB42972CBECC8AD4293053C8A71AB /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLogin";
+			productName = "Pods-TouchLogin";
+			productReference = 2B4EDBA9832152E313019970F45C6F16 /* Pods_TouchLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 7532D7D37404420885AFDA7AF77E00B9 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC4EDC5B5F144251724F8BC67005BE5D /* Pods-TouchLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F92851FC68A1E176C0E9AC6A25F9FC /* Build configuration list for PBXNativeTarget "Pods-TouchLoginTests" */;
+			buildPhases = (
+				F108624B0963502070F9C051E5D44396 /* Sources */,
+				62E6FBA2C22641CEA64D3FD1D334DB92 /* Frameworks */,
+				FAFB7CE3216344FB59898527C5F87163 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C2FCC70B2D77738B4C18E292AB0CA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLoginTests";
+			productName = "Pods-TouchLoginTests";
+			productReference = 73622EA413FB4438CF767BCBFA56B0E5 /* Pods_TouchLoginTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1E2CA966FDB16F4065EF1402CDE9EBD /* Pods-TouchLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E374BF6F9C077CB4E1F7D10E137595 /* Build configuration list for PBXNativeTarget "Pods-TouchLoginUITests" */;
+			buildPhases = (
+				C899D8B20B4B83974D35CA06B3BCE09C /* Sources */,
+				89FAFFE9504C6F841CF0612DF6C6D28E /* Frameworks */,
+				33749A18AF2C0D3E8AB52DE9F5DF6234 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE9B1673D774B9F4E0F5A2E51E504EE /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLoginUITests";
+			productName = "Pods-TouchLoginUITests";
+			productReference = B3C8CEBB9394B9B0E33814A160A5FC55 /* Pods_TouchLoginUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					79C040AFDDCE1BCBF6D8B5EB0B85887F = {
+						DevelopmentTeam = U7JWBB6547;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F111903AE6F92411731ADEDAE9E6938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				57CFC4DF5A94826729A3A532FC59EE52 /* Pods */,
+				5C3A378C439B8ED5A5EF231BD4725799 /* Pods-TouchLogin */,
+				BC4EDC5B5F144251724F8BC67005BE5D /* Pods-TouchLoginTests */,
+				C1E2CA966FDB16F4065EF1402CDE9EBD /* Pods-TouchLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B6CD64D85CDE62D58AFB0C5EC2F44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6FDB353E0AE2963BFCD155E100F836 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932FD62C58CCAE31DDC0E2D5FF07DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DE2066633F2F69AA79B6AA19826F21 /* Pods-TouchLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */,
+				8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */,
+				5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */,
+				095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */,
+				4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */,
+				C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */,
+				34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */,
+				BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */,
+				C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */,
+				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
+				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
+				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
+				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
+				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
+				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
+				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
+				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
+				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C899D8B20B4B83974D35CA06B3BCE09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFAB428DE201AE3899614222BC7AA51 /* Pods-TouchLoginUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F108624B0963502070F9C051E5D44396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B2D3F9A29A428FCA911A0AD86C35A3 /* Pods-TouchLoginTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FACAD584CBBAA1AE9A9C8FA17C8395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 66FB30F40015337B10768205C744F9CB /* PBXContainerItemProxy */;
+		};
+		39C2FCC70B2D77738B4C18E292AB0CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 8647A3B12124E4202DE52FD9A7FE875A /* PBXContainerItemProxy */;
+		};
+		53CDB42972CBECC8AD4293053C8A71AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 95228913FE20FBC3FE8F2C77E634AAD0 /* PBXContainerItemProxy */;
+		};
+		FCE9B1673D774B9F4E0F5A2E51E504EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 3E409A1E511C0C1A22A3E37E09DFF43F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CA98B9ABF7C2CE77CE72E850807699F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272DAA6230C883EB93F8CD2C793AE2C3 /* Pods-TouchLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLogin/Pods-TouchLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TouchLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F4E1D00B29E9A8E82FB0BDC2342279C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D17344B2706D2E1535AB47275F62BE7 /* Pods-TouchLoginUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchLoginUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLoginUITests/Pods-TouchLoginUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TouchLoginUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FD2A0DC55CA2C2924CC24A87931F205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74459AB6FEECD2686ED7F9328E0E0818 /* Pods-TouchLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLogin/Pods-TouchLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TouchLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE7C66E0CA64C5BECABFF937A7892D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28C4C06AE60913E34410A7EAA918C17 /* Pods-TouchLoginTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLoginTests/Pods-TouchLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TouchLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75B32D0C2CA9580AF8749744934FF61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B560E5364A4C4783D5981A5FC89343 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C4EEC74071129E0D8585FB9197E592B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506AC81D2F0EAFEF34F1E9C188DDCCCF /* Pods-TouchLoginUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchLoginUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLoginUITests/Pods-TouchLoginUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TouchLoginUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F4514DCCF076C0B35451BAAD5F92512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC6E43DB55D129BF53F43E6CC3EAE26 /* Pods-TouchLoginTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLoginTests/Pods-TouchLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TouchLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9961CE0BC3F7834BA600AEC8ABEBC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE9C46D146917105FE807A449F9870F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6FC16AA8B8F0ECB0D4E9A05E0912511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DB20B14D8C7AD7C9899DE4CB523B84 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1883950DAA2ED713560E38DF52008D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DB20B14D8C7AD7C9899DE4CB523B84 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C2B726A5648DAF76430853A070C30D /* Build configuration list for PBXNativeTarget "Pods-TouchLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD2A0DC55CA2C2924CC24A87931F205 /* Debug */,
+				3CA98B9ABF7C2CE77CE72E850807699F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1883950DAA2ED713560E38DF52008D /* Debug */,
+				B6FC16AA8B8F0ECB0D4E9A05E0912511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E374BF6F9C077CB4E1F7D10E137595 /* Build configuration list for PBXNativeTarget "Pods-TouchLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4EEC74071129E0D8585FB9197E592B /* Debug */,
+				3F4E1D00B29E9A8E82FB0BDC2342279C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F92851FC68A1E176C0E9AC6A25F9FC /* Build configuration list for PBXNativeTarget "Pods-TouchLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4514DCCF076C0B35451BAAD5F92512 /* Debug */,
+				5DE7C66E0CA64C5BECABFF937A7892D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96086592099F83F7FCBCEB9423AF9F1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9961CE0BC3F7834BA600AEC8ABEBC7E /* Debug */,
+				75B32D0C2CA9580AF8749744934FF61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
